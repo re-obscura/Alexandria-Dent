@@ -110,6 +110,15 @@ body {
         font-size: 0.6rem;
     }
 
+    /* Hide Desktop Dropdown on Mobile */
+    .dropdown-menu {
+        display: none !important;
+    }
+
+    .nav-item.dropdown .nav-link svg {
+        display: none !important;
+    }
+
     .header-actions {
         display: flex !important;
         visibility: visible !important;
