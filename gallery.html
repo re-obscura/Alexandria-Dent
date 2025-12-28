@@ -15,11 +15,13 @@
         {
             "@context": "https://schema.org",
             "@type": "Dentist",
-            "name": "Dentist in Alexandria",
+            "name": "Alexandria Dentistry",
             "image": "https://images.unsplash.com/photo-1629909615184-74f495363b67?w=800&q=80",
-            "@id": "https://github.com/re-obscura/Alexandria-Dent",
-            "url": "https://github.com/re-obscura/Alexandria-Dent",
+            "@id": "https://alexandriadentistry.com",
+            "url": "https://alexandriadentistry.com",
             "telephone": "+17035550123",
+            "currenciesAccepted": "USD",
+            "paymentAccepted": "Cash, Credit Card, Insurance",
             "priceRange": "$$",
             "address": {
                 "@type": "PostalAddress",
@@ -34,24 +36,19 @@
                 "latitude": 38.8048,
                 "longitude": -77.0469
             },
+            "openingHours": "Mo-Th 08:00-17:00, Fr 07:00-15:00",
             "openingHoursSpecification": [
                 {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday"],
-                "opens": "08:00",
-                "closes": "18:00"
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+                    "opens": "08:00",
+                    "closes": "17:00"
                 },
                 {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Wednesday", "Thursday"],
-                "opens": "09:00",
-                "closes": "19:00"
-                },
-                {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": "Friday",
-                "opens": "08:00",
-                "closes": "16:00"
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": "Friday",
+                    "opens": "07:00",
+                    "closes": "15:00"
                 }
             ],
             "sameAs": [
